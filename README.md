@@ -35,3 +35,4 @@ then you can increment or decrement each section of the Version
 ```Scala
 Version(1, 3, 3).incrementMajor // Version(2, 3, 3)
 ```
+More examples are in the examples directory
