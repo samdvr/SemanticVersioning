@@ -1,6 +1,6 @@
 package example
 
-import semantic.Versioning.{Version, _}
+import semantic.Versioning._
 import semantic.Updater._
 
 object Main extends App {
