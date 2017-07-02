@@ -24,6 +24,18 @@ example:
 ```Scala
 Version(2, 1, -4).validate  // Left(semantic.Semantic$Patch must be non negative)
 ```
+### Equality
+
+```Scala
+Version(2, 1, 2).equals Version(2, 1, 8) // false
+```
+
+### String Representation
+
+```Scala
+Version(2, 1, 2).toString // 2.1.2
+```
+
 ### Incrementing/Decrementing
 
 import Updater typeclasses
@@ -35,4 +47,6 @@ then you can increment or decrement each section of the Version
 ```Scala
 Version(1, 3, 3).incrementMajor // Version(2, 3, 3)
 ```
-More examples are in the examples directory
+More examples are in the examples directory.
+
+
