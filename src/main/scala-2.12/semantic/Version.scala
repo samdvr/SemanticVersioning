@@ -40,17 +40,4 @@ object Versioning {
     def apply(major: Int, minor: Int, patch: Int): Version = new Version(Major(major), Minor(minor), Patch(patch))
     def apply(major: Major, minor: Minor, patch: Patch): Version = new Version(major, minor, patch)
   }
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
