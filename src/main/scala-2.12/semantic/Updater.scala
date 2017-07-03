@@ -2,7 +2,6 @@ package semantic
 
 import semantic.Versioning.{Major, Minor, Patch, Version}
 
-
 object Updater {
 
   implicit class VersionIncrementer(version: Version) {
@@ -19,4 +18,3 @@ object Updater {
   }
 
 }
-
